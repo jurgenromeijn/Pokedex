@@ -1,0 +1,15 @@
+<resources>
+	<style name="PokedexTheme" parent="@android:style/Theme.Holo">
+	    <item name="android:actionBarStyle">@style/PokedexActionBar</item>
+	</style>
+		
+	<style name="PokedexActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+	        <item name="android:titleTextStyle">@style/PokedexActionBarTitle</item>
+	    <item name="android:background">#cc0000</item>
+	</style>
+	
+	<style name="PokedexActionBarTitle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+	    <item name="android:textSize">20sp</item>
+		<item name="android:textColor">#ffffff</item>
+	</style>
+</resources>
